@@ -29,6 +29,14 @@ public:
 };
 
 // Define your animals here
+class Penguin : public Animal {
+public: 
+	Penguin():
+	Animal("penguiiiiiin") {}
+
+	int GetPower() { return 12; };
+
+}
 
 // Oliver's Tiger 
 class Tiger : public Animal {

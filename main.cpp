@@ -5,8 +5,14 @@ using namespace std;
 
 int main() {
 	Turtle turtle_friend;
+  
+	std::cout << turtle_friend.MakeSound() << std::endl;
+	
+  // Michael Penguin
+	Penguin penguino_enemy;
 
-	cout << turtle_friend.MakeSound() << endl;
+	std::cout << penguino_enemy.MakeSound() << std::endl;
+
 
 	// Oliver Tiger instance 
 	Tiger tiger_friend; 
