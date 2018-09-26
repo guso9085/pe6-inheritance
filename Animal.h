@@ -22,9 +22,15 @@ public:
 	Turtle():
 	Animal("turtle turtle turtle")
 	{}
-
-
 	int GetPower() { return 7; };
+};
+
+class Pig : public Animal {
+public: 
+	Pig():
+	Animal("pig pig pig")
+	{}
+	int GetPower() { return 8; };
 
 };
 

@@ -4,9 +4,16 @@ using namespace std;
 #include "Animal.h"
 
 int main() {
+  
 	Turtle turtle_friend;
   
-	std::cout << turtle_friend.MakeSound() << std::endl;
+  std::cout << turtle_friend.MakeSound() << std::endl;
+  
+  // Gustav Pig
+	Pig pig_friend;
+	
+	std::cout << pig_friend.MakeSound() << std::endl;	
+  
 	
   // Michael Penguin
 	Penguin penguino_enemy;
