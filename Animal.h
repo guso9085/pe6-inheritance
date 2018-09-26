@@ -30,4 +30,17 @@ public:
 
 // Define your animals here
 
+// Oliver's Tiger 
+class Tiger : public Animal {
+public: 
+	Tiger():
+	Animal("Meow")
+	{}
+
+
+	int GetPower() { return 14; };
+
+};
+
+
 #endif  // _ANIMAL_H_
